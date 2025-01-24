@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Archivo+Narrow&family=Montserrat+Alternates:wght@300&display=swap');
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.center{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+
+.infoBox{
+	margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+	margin-bottom: 5%;
+    max-width: 50%;
+	min-width: 50%;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.left{
+	float: left;
+	width: 45%;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+.right{
+	width: 45%;
+	overflow: hidden;
+	float:right;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+label {
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+	font-family: 'Andika', sans-serif;
+}
+
+@media screen and (max-width: 770px) {
+    .infoBox {
+		margin-top: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
+		max-width: 90%;
+		min-width: 90%;
+
+		padding-left: 1%;
+		padding-right: 1%;
+
+		border: none;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+    }
+	
+	.left{
+		display:block; 
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+
+	.right{
+		display:block; 
+		width: 100%;
+		margin-bottom: 5%;
+	}
+}

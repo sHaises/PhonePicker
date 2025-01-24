@@ -1,0 +1,252 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	background-color: #FCFAFA;	
+}
+
+.text {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+.box{
+	/*box-shadow: inset 1px 5px 20px #888888,
+                inset 0 -20px 50px #111311;*/
+	margin-top: 0;
+	height: 100vh;
+	width: auto;
+	/*background-image: url("Others/colorful.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: cover;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+/* space for text on main page */
+.container{
+	width: auto;
+	height: 50vh;
+	background-color: #FCFAFA;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.first{
+	float: left;
+	width: 50%;
+}
+
+.second{
+	width: 50%;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 769px) {
+  .container{
+		width: 100vh;
+		heigth: 100px;
+		background-color: red;
+		text-align: center;
+		position:relative;
+	}
+
+	.first{
+		position:absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		margin: auto;
+		height: 20px; 
+	}
+
+	.second{
+		position:absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		margin: auto;
+		height: 20px; 
+	}
+	
+}
+
+/* for video */
+
+#black {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.content {
+	position: absolute;
+	top: 0;
+	color: #f1f1f1;
+	width: 100%;
+}
+
+/* for fitter animations */
+.phones {
+	width: 50%;
+	margin-top: 5%;
+	margin-bottom: 6%;
+	margin-left: 2%;
+	margin-right: 15%;
+}
+
+.paragraph{
+	margin-top: 10%;
+	margin-bottom: 6%;
+	margin-left: 2%;
+	margin-right: 15%;
+	
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* for card information */
+
+.containerCard{
+	width: auto;
+	height: 50vh;
+	background-color: #FCFAFA;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 15px;
+	margin: auto;
+	margin-top: 4%;
+	margin-left: 8%;
+	
+}
+
+.firstCard{
+	float:left; 
+	display:inline; 
+	width: 20%;
+	margin-right: 4%;
+}
+
+.secondCard{
+	float:left; 
+	display:inline; 
+	width: 20%;
+	margin-right: 4%;
+}
+
+.thirdCard{
+	float:left; 
+	display:inline; 
+	width: 20%;
+	margin-right: 4%;
+}
+
+.fourthCard{
+	float:left; 
+	display:inline; 
+	width: 20%;
+}
+
+@media screen and (max-width: 1400px) {
+	.containerCard{
+		width: 100vh;
+		height: auto;
+		background-color: #FCFAFA;
+		overflow: hidden;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 0 20px;
+		margin: auto;
+		margin-top: 5%;
+		margin-left: 10%;
+	
+	}
+
+	.firstCard{
+		float:left; 
+		display:block; 
+		width: 45%;
+		margin-right: 5%;
+	}
+
+	.secondCard{
+		float:left; 
+		display:inline; 
+		width: 45%;
+		margin: auto;
+	}
+
+	.thirdCard{
+		float:left; 
+		display:block; 
+		width: 45%;
+		margin-right: 5%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+
+	.fourthCard{
+		float:left; 
+		display:inline; 
+		width: 45%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.containerCard{
+		width: 100vh;
+		height: auto;
+		background-color: #FCFAFA;
+		overflow: hidden;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 0 20px;
+		margin: auto;
+		margin-top: 5%;
+		margin-left: 10%;
+	
+	}
+
+	.firstCard{ 
+		display:block; 
+		width: 9%;
+		margin-bottom: 5%;
+		margin-left: 6%;
+	}
+
+	.secondCard{
+		display:block; 
+		width: 90%;
+		margin-bottom: 5%;
+		margin-left: 6%;
+	}
+
+	.thirdCard{
+		display:block; 
+		width: 90%;
+		margin-bottom: 5%;
+		margin-left: 6%;
+	}
+
+	.fourthCard{
+		display:block; 
+		width: 90%;
+		margin-bottom: 5%;
+		margin-left: 6%;
+	}
+}

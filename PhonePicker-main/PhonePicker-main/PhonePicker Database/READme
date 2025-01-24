@@ -1,0 +1,6 @@
+Baza de date a fost realizata folosind PHPMyAdmin
+Tablele:
+mobiles are urmatoarele campuri : ID_MOBILE,Model,Price,Raiting,Sim,Processor,Ram,Battery,Display,Camera,Card,OS(acest tabel este deja populat)
+users care contine urmatoarele campuri:ID_USER,USERNAME,PASSWORD,EMAIL(acest tabel nu este inca populat)
+interaction_user care contine urmatoarele campuri:ID_inter,ID_mobil,ID_user,tip(acest tabel inca nu este populat)
+text_interactions care contine urmatoarele campuri:ID_text,ID_inter,text(acest tabel inca nu este populat)

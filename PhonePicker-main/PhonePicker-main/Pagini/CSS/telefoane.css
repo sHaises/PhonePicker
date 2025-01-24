@@ -1,0 +1,115 @@
+
+img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+}
+
+.center{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+
+.containerBox{
+	margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    max-width: 50%;
+	min-width: 50%;
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.leftCard{
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.rightCard{
+	width: 50%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.productCard{
+	height: 35vh;
+	display: inline;
+	margin-top: 4%;
+}
+
+.imgCard{
+	width: 45%;
+	display: inline;
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 4%;
+	margin-left: 6%;
+}
+
+.textCard{
+	width: 45%;
+	font-size: 25px; 
+	padding: 0;
+	overflow: hidden; 
+}
+
+.btn-group button {
+	float: left; 
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	width: 30%;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .containerBox{
+		margin-top: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
+		max-width: 90%;
+		min-width: 90%;
+
+		padding-left: 1%;
+		padding-right: 1%;
+
+		border: none;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	}
+
+	.leftCard{
+		display: block;
+		width: 90%;
+	}
+
+	.rightCard{
+		display: block;
+		width: 90%;
+	}
+}
